@@ -5,21 +5,22 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-      "start": "node index.js",
-      "dev": "nodemon index.js"
+        "start": "node index.js",
+        "dev": "nodemon index.js"
     },
     "keywords": [
-      "express",
-      "pizza"
+        "express",
+        "pizza"
     ],
     "author": "tuhin ghosh",
     "license": "ISC",
     "dependencies": {
-      "dotenv": "^16.4.7",
-      "express": "^4.21.2"
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "morgan": "^1.10.0",
+        "winston": "^3.17.0"
     },
     "devDependencies": {
-      "nodemon": "^3.1.7"
+        "nodemon": "^3.1.7"
     }
-  }
-  
+}
